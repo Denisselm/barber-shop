@@ -1,0 +1,20 @@
+.header {
+    background-image: url(".././images/post-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+h1 {
+    color: $primary;
+    font-family: $italic;
+    font-weight: 900;
+    font-size: $xxlarge;
+    font-style: oblique;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
