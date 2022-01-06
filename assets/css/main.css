@@ -11191,19 +11191,19 @@ span {
   color: #d76c69;
 }
 
-.nav {
+.navbar {
   background-color: #121619;
   color: #ffffff;
-  height: 15px;
-}
-
-.navbar__logo {
-  width: 200px;
+  height: 50px;
 }
 
 .navbar__nav {
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.nav__logo--size {
+  width: 100px;
 }
 
 .nav__link {
