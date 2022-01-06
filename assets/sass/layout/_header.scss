@@ -4,6 +4,7 @@
     background-size: cover;
     background-position: center;
     height: 650px;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -11,7 +12,6 @@ h1 {
     font-family: $italic;
     font-weight: 900;
     font-size: $xxlarge;
-    font-style: oblique;
     position: absolute;
     text-align: center;
     top: 45%;

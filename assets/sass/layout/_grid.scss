@@ -1,0 +1,18 @@
+//estilos de la grilla
+.naomi {
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 80px;
+}
+
+h3 {
+    color: $colorbg;
+    font-family: $italic;
+    font-weight: 900;
+    font-size: $xlarge;
+}
+
+.section__naomi--rosado {
+    color: $lightpink;
+}

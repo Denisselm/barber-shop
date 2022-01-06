@@ -14,21 +14,21 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
         <div class="container">
 
-            <a class="navbar-brand logo"> <img src="assets/images/logo.png" alt="logo"></i>
+            <a class="navbar__logo"> <img src="assets/images/logo.png" alt="logo"></i>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav__link" aria-current="page" href="#">Nosotros</a>
-                    <a class="nav__link" href="#">Trabajos</a>
-                    <a class="nav__link nav__link--active" href="#">Blog</a>
-                    <a class="nav__link" href="#">Horas </a>
-                    <a class="nav__link" href="#">Contacto</a>
+                    <a class="nav__link" aria-current="page">Nosotros</a>
+                    <a class="nav__link">Trabajos</a>
+                    <a class="nav__link--rojo">Blog</a>
+                    <a class="nav__link">Horas </a>
+                    <a class="nav__link">Contacto</a>
                 </div>
             </div>
         </div>
@@ -44,45 +44,80 @@
     </header>
 
 
-    <section class="section article ">
-        <article class="section__article ">
-            <p class="parrafo ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel tempora? Quidem, nulla, dolores aliquam minima quisquam magnam ipsa similique magni facilis corrupti nam beatae voluptatibus deserunt inventore explicabo voluptatum! Lorem ipsum
-                dolor sit amet consectetur, adipisicing elit. Asperiores ad cupiditate esse. Ratione, sunt laudantium. Ipsum nostrum ipsa dolor molestiae illo voluptas placeat quasi, dignissimos fuga necessitatibus est reiciendis esse? Lorem, ipsum dolor
-                sit amet consectetur adipisicing elit. Nulla placeat necessitatibus porro ratione error earum blanditiis maiores facilis dicta, accusantium odit voluptate repudiandae tempore ullam dolorem eum quidem aut delectus? Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit. Labore culpa hic autem neque magnam officia porro illum asperiores voluptas inventore tempora dolor impedit assumenda dicta, dignissimos fugiat nam? Totam, sunt. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Neque veritatis quisquam aperiam expedita eveniet! Iusto blanditiis soluta possimus sit ratione consectetur, eos nesciunt. Repellendus voluptatum a doloribus soluta neque ullam?Lorem ipsum dolor, sit amet consectetur
-                adipisicing elit. Odit quaerat architecto molestiae magnam dolore voluptatibus autem reiciendis excepturi, eius qui a natus ipsum eum dignissimos. Consequuntur molestiae distinctio libero quas. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit. Amet quo, aut dolores animi qui reprehenderit porro distinctio necessitatibus tenetur architecto deleniti, labore nisi tempore odit ut repellat nam debitis perspiciatis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
-                minima ratione fugit consequuntur libero. Eius distinctio magni vitae minima mollitia, esse incidunt quae nemo, obcaecati libero et, rem nulla quo!
-            </p>
-        </article>
+    <main-section class="main-section">
+        <div class="main-section__caja">
+            <article class="main-section__article">
+                <p class="main-section__parrafo2--date">12 de Abril de 2018</p>
+                <p class=" main-section__parrafo2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel tempora? Quidem, nulla, dolores aliquam minima quisquam magnam ipsa similique magni facilis corrupti nam beatae voluptatibus<br> deserunt inventore explicabo voluptatum!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores ad cupiditate esse. Ratione, sunt laudantium. Ipsum nostrum ipsa dolor molestiae<br> illo voluptas placeat quasi, dignissimos fuga <br><br>Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Aut, vel tempora? Quidem, nulla, dolores aliquam minima quisquam magnam ipsa similique magni facilis corrupti nam beatae voluptatibus<br> deserunt inventore explicabo voluptatum! Lorem ipsum dolor sit
+                    amet consectetur, adipisicing elit. Asperiores ad cupiditate esse. Ratione, sunt laudantium. Ipsum nostrum ipsa dolor molestiae Asperiores ad cupiditate esse. Ratione, sunt laudantium. Ipsum nostrum ipsa dolor molestiae Asperiores
+                    ad cupiditate esse. Ratione, sunt laudantium. Ipsum nostrum ipsa dolor molestiae <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel tempora? Quidem, nulla, dolores aliquam minima quisquam magnam ipsa similique
+                    magni facilis corrupti nam beatae voluptatibus<br> deserunt inventore explicabo voluptatum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores ad cupiditate esse. Ratione, sunt laudantium. Ipsum nostrum ipsa dolor
+                    molestiae
+                    <br> illo voluptas placeat quasi, dignissimos fuga <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel tempora? Quidem, nulla, dolores aliquam minima quisquam magnam ipsa similique magni facilis corrupti nam beatae
+                    voluptatibus
+                    <br> deserunt inventore explicabo voluptatum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel tempora? Quidem, nulla, dolores aliquam minima quisquam
+                    magnam ipsa similique magni facilis corrupti nam beatae voluptatibus<br> deserunt inventore explicabo voluptatum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores ad cupiditate esse. Ratione, sunt laudantium. Ipsum
+                    nostrum ipsa dolor molestiae<br> illo voluptas placeat quasi, <span> fuga deserunt inventore explicabo voluptatum!</span> Lorem ipsum dolor sit amet consectetur, adipisicing elitadipisicing elit. Aut, vel tempora? Quidem, nulla, dolores
+                    aliquam minima quisquam magnam ipsa similique magni facilis corrupti nam beatae voluptatibus.<br><br>
+                </p>
+            </article>
+        </div>
 
+        <div class="div__boton ">
+            <button type="button " class="btn btn-secondary btn-lg ">Compartir</button>
+            <button type="button " class="btn btn-lg btn-secondary div__boton div__boton--medium boton ">Comentar en Twitter</button>
 
-        <div class="header__divbutton ">
-            <button class="header__button "></button>
-            <button class="header__button header__button--active "></button>
+        </div>
+    </main-section>
+
+    <hr>
+
+    <section class="section naomi ">
+        <div class="row naomi ">
+            <div class="col-12 col-md-4 ">
+                <div class="card-body ">
+                    <img src="assets/images/naomi-thai.png " class="section naomi__foto-thai my-20 " alt=" ">
+                </div>
+            </div>
+            <div class="col-12 col-md-4 ">
+                <div class="card-body ">
+                    <h3> Naomi Thai</h3>
+                    <h5 class="section__naomi--rosado">@NaoThai<br> depelos.com</h5>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-4 ">
+                <div class="card-body ">
+                    <p class="section naomi__parrafo ">Lorem ipsum dolor sit amet consectetur adipisicing elit. At cum nisi in libero blanditiis adipisci exercitationem ullam dolor, consectetur delectus aspernatur enim deleniti iusto est praesentium, fugiat natus ipsam deserunt? Lorem
+                        ipsum dolor sit amet, consectetur adipisicing elit. Unde veniam, sunt omnis reprehenderit nemo magni distinctio doloremque magnam dicta debitis eaque maiores fuga, cum commodi iure facilis deleniti praesentium optio?
+                    </p>
+
+                </div>
+            </div>
         </div>
     </section>
 
+    <div class="paginador ">
+        <nav aria-label="... ">
+            <ul class="pagination ">
+                <li class="page-item ">
+                    <a class="page-link ">Anterior</a>
+                </li>
+                <li class="page-item "><a class="page-link " href="# ">1</a></li>
+                <li class="page-item " aria-current="page ">
+                    <a class="page-link " href="# ">2</a>
+                </li>
+                <li class="page-item "><a class="page-link " href="# ">3</a></li>
+                <li class="page-item ">
+                    <a class="page-link " href="# ">Siguiente</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
 
-    <section class="section ">
-
-        <img src="assets/images/naomi-thai.png " class="section__naomi-thai " alt=" ">
-        <h2 class="section__h2 section__h2--color "> Naomi Thai</h2>
-        <h3 class="section__h2 section__h2--color ">@NaoThai depelos.com</h3>
-
-        <article class="section__article ">
-            <p class="section__parrafo ">Lorem ipsum dolor sit amet consectetur adipisicing elit. At cum nisi in libero blanditiis adipisci exercitationem ullam dolor, consectetur delectus aspernatur enim deleniti iusto est praesentium, fugiat natus ipsam deserunt? Lorem ipsum dolor
-                sit amet, consectetur adipisicing elit. Unde veniam, sunt omnis reprehenderit nemo magni distinctio doloremque magnam dicta debitis eaque maiores fuga, cum commodi iure facilis deleniti praesentium optio?
-            </p>
-        </article>
-
-        <div class="section__div ">
-            <--!aqui va el paginador-->
-        </div>
-
-    </section>
 
 
     <footer class="footer ">
